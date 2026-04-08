@@ -1,5 +1,9 @@
 # 🧪 VR Molecular Chemistry Lab
 
+<p align="center">
+  <img src="Assets/demo.gif" width="700"/>
+</p>
+
 ## 📌 Overview
 This project is an interactive **VR Molecular Chemistry Lab** built using Unity and XR technologies.
 
@@ -50,7 +54,6 @@ This project prioritizes **functionality and logic** over visual complexity.
 2. Open the project in Unity (latest stable version recommended)  
 3. Enable XR Plugin Management and OpenXR  
 4. Build for Android (Meta Quest compatible)
-
 
 
 ## 📌 Project Focus
