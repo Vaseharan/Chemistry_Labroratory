@@ -5,7 +5,6 @@ This project is an interactive **VR Molecular Chemistry Lab** built using Unity 
 
 It allows users to grab atoms, combine them, and form valid molecules with real-time feedback. The system detects correct molecular structures and visualizes them with proper bonding representation.
 
----
 
 ## 🎯 Purpose of the Project
 The main purpose of this project is to:
@@ -17,12 +16,10 @@ The main purpose of this project is to:
 
 This project prioritizes **functionality and logic** over visual complexity.
 
----
 
 ## 🎬 Demo Video
 [Watch the Demo](https://youtu.be/necKbkVrCPs?si=FFO_dh_lprRV0iK3)
 
----
 
 ## 🧩 Features
 
@@ -33,7 +30,6 @@ This project prioritizes **functionality and logic** over visual complexity.
 - Molecule listing UI panel  
 - Reset and reuse system  
 
----
 
 ## 🛠️ Tools & Technologies Used
 
@@ -47,19 +43,6 @@ This project prioritizes **functionality and logic** over visual complexity.
 - UI, particle effects, and audio use **external packages**
 - Focus was placed on **mechanics and architecture rather than custom 3D assets**
 
----
-
-## 🧠 AI Usage
-
-ChatGPT was used as a support tool for:
-
-- Assisting in code implementation  
-- Debugging and fixing errors  
-- Improving development efficiency  
-
-All core logic, interaction flow, and system design were independently developed.
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -68,7 +51,7 @@ All core logic, interaction flow, and system design were independently developed
 3. Enable XR Plugin Management and OpenXR  
 4. Build for Android (Meta Quest compatible)
 
----
+
 
 ## 📌 Project Focus
 
@@ -78,7 +61,6 @@ This project mainly focuses on:
 - Clean and modular architecture  
 - Real-time logic execution  
 
----
 
 ## 💡 Final Note
 
