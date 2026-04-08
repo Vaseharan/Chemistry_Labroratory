@@ -1,8 +1,5 @@
 # 🧪 VR Molecular Chemistry Lab
 
-<p align="center">
-  <img src="Assets/demo.gif" width="600"/>
-</p>
 ## 📌 Overview
 This project is an interactive **VR Molecular Chemistry Lab** built using Unity and XR technologies.
 
