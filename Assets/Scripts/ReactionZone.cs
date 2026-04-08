@@ -14,6 +14,12 @@ public class ReactionZone : MonoBehaviour
 
     public Transform spawnPoint;
 
+    [Header("Audio and Particle")]
+    public AudioSource audioSource;
+    public AudioClip successClip;
+
+    public ParticleSystem successParticle;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out AtomController atom))
@@ -79,6 +85,15 @@ public class ReactionZone : MonoBehaviour
             {
                 entry.sceneObject.transform.position = spawnPoint.position;
                 entry.sceneObject.SetActive(true);
+                // 🔊 PLAY AUDIO
+                audioSource.PlayOneShot(successClip);
+
+                // ✨ PLAY PARTICLE
+                if (successParticle != null)
+                {
+                    successParticle.transform.position = spawnPoint.position;
+                    successParticle.Play();
+                }
                 uiManager.AddMolecule(data.moleculeName);
 
                 return;
